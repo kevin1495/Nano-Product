@@ -1,0 +1,13 @@
+package co.id.bca.spring.NanoProduct.repository;
+
+import co.id.bca.spring.NanoProduct.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface IProductRepo extends JpaRepository<Product,Integer> {
+
+    Product findProductById(Integer id);
+    List<Product> findAllByOrderByProductName();
+    Integer removeById(Integer id);
+}
