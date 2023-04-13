@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface IProductService {
 
-    void insert(Product product);
-    void update(Product product);
+    Product insert(Product product);
+    Product update(Product product);
     void delete(Product product);
     Product findProduct(Product product);
     List<Product> allProducts();
