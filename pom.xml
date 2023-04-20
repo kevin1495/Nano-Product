@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>co.id.bca.spring</groupId>
-	<artifactId>NanoProduct</artifactId>
+	<artifactId>NanoHolidayProduct</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>NanoProduct</name>
 	<description>Project Product</description>
@@ -31,6 +31,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.30</version>
 		</dependency>
 
 		<dependency>

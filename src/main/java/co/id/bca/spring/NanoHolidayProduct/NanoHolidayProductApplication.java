@@ -1,13 +1,13 @@
-package co.id.bca.spring.NanoProduct;
+package co.id.bca.spring.NanoHolidayProduct;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NanoProductApplication {
+public class NanoHolidayProductApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NanoProductApplication.class, args);
+		SpringApplication.run(NanoHolidayProductApplication.class, args);
 	}
 
 }

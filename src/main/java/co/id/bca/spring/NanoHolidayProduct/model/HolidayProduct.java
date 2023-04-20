@@ -1,10 +1,10 @@
-package co.id.bca.spring.NanoProduct.model;
+package co.id.bca.spring.NanoHolidayProduct.model;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="product")
-public class Product {
+@Table(name="holiday_product")
+public class HolidayProduct {
 
     @Id
     @GeneratedValue
