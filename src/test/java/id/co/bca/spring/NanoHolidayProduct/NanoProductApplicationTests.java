@@ -1,4 +1,4 @@
-package co.id.bca.spring.NanoHolidayProduct;
+package id.co.bca.spring.NanoHolidayProduct;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

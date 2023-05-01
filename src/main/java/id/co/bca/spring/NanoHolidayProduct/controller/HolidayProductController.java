@@ -1,7 +1,7 @@
-package co.id.bca.spring.NanoHolidayProduct.controller;
+package id.co.bca.spring.NanoHolidayProduct.controller;
 
-import co.id.bca.spring.NanoHolidayProduct.model.HolidayProduct;
-import co.id.bca.spring.NanoHolidayProduct.service.IHolidayProductService;
+import id.co.bca.spring.NanoHolidayProduct.model.HolidayProduct;
+import id.co.bca.spring.NanoHolidayProduct.service.IHolidayProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,25 +20,25 @@ public class HolidayProductController {
     }
 
     @GetMapping("{id}")
-    public HolidayProduct findProductById(@PathVariable Integer productId) {
+    public HolidayProduct findProductById(@PathVariable("id") Integer productId) {
         HolidayProduct request = new HolidayProduct();
         request.setId(productId);
         return iProductService.findProduct(request);
     }
 
-    @PostMapping("{id}")
+    @PostMapping("")
     public HolidayProduct createProduct(@RequestBody HolidayProduct product) {
         return iProductService.insert(product);
     }
 
     @PutMapping("{id}")
-    public HolidayProduct updateProductById(@PathVariable Integer productId, @RequestBody HolidayProduct product) {
+    public HolidayProduct updateProductById(@PathVariable("id") Integer productId, @RequestBody HolidayProduct product) {
         product.setId(productId);
         return  iProductService.update(product);
     }
 
     @DeleteMapping("{id}")
-    public void deleteProductByID(@PathVariable Integer productId) {
+    public void deleteProductByID(@PathVariable("id") Integer productId) {
         HolidayProduct request = new HolidayProduct();
         request.setId(productId);
         iProductService.delete(request);

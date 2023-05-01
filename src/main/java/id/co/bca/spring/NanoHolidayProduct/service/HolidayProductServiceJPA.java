@@ -1,7 +1,7 @@
-package co.id.bca.spring.NanoHolidayProduct.service;
+package id.co.bca.spring.NanoHolidayProduct.service;
 
-import co.id.bca.spring.NanoHolidayProduct.model.HolidayProduct;
-import co.id.bca.spring.NanoHolidayProduct.repository.IHolidayProductRepo;
+import id.co.bca.spring.NanoHolidayProduct.model.HolidayProduct;
+import id.co.bca.spring.NanoHolidayProduct.repository.IHolidayProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package co.id.bca.spring.NanoHolidayProduct.model;
+package id.co.bca.spring.NanoHolidayProduct.model;
 
 import jakarta.persistence.*;
 
@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 public class HolidayProduct {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     int id;
     @Column(name = "product_name")

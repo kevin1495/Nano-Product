@@ -1,6 +1,6 @@
-package co.id.bca.spring.NanoHolidayProduct.service;
+package id.co.bca.spring.NanoHolidayProduct.service;
 
-import co.id.bca.spring.NanoHolidayProduct.model.HolidayProduct;
+import id.co.bca.spring.NanoHolidayProduct.model.HolidayProduct;
 
 import java.util.List;
 

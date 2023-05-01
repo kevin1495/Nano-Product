@@ -1,6 +1,6 @@
-package co.id.bca.spring.NanoHolidayProduct.repository;
+package id.co.bca.spring.NanoHolidayProduct.repository;
 
-import co.id.bca.spring.NanoHolidayProduct.model.HolidayProduct;
+import id.co.bca.spring.NanoHolidayProduct.model.HolidayProduct;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
